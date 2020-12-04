@@ -41,18 +41,25 @@ position: fixed;
  width: 2.7em;
 }
 
+.fas.verbergen{
+ display: none;
+}
+
+
 .nav__knop:hover{
  color: green;
 }
 
 .nav-item{
- margin-bottom: .1em;
+ margin-top: .1em;
 }
 
 .nav__link{
  color: blue;
  text-decoration: none;
+ display: inline-block; /*Padding heeft pas zin naar een block element, te worden*/
  padding: .1em 1em;
+
  transform: translateX(-8.2em);
  transition: transform .8s ease-in-out;
 }
