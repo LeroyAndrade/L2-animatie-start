@@ -8,7 +8,7 @@ setTimeout( () => {
 }, 300);
 
 //Nav button klik: 
-const menuKnop        =  document.querySelector( '.nav__knop' );
+const menuKnop        =  document.querySelector(    '.nav__knop' );
 const navigationItems =  document.querySelectorAll( '.nav__link' );
 
  menuKnop.addEventListener( 'click', () => {

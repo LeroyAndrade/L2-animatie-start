@@ -58,8 +58,22 @@ font-family: Arial, Helvetica, sans-serif;
  .nav__link:hover{
   background-color: green;
  }
+
+ /*animatie tekst*/
+ .nav__link--schuif-in .nav__text{
+  animation: animatie 5s forwards;
+  position: relative;
+ }
+
+ @keyframes animatie{
+  0%   { transform: translateX( -2.2em ); }
+  50%  { transform: translateX( .8em   ); }
+  75%  { transform: translateX( -.4em  ); }
+  100% { transform: translateX( 0      ); }
+ }
  .sluitKnop{
   font-size: 1rem;
+  background-color: orange;
  }
 @media screen and (min-width: 600px){
   .nav{
