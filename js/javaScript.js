@@ -8,8 +8,8 @@ setTimeout( () => {
 }, 300);
 
 //Nav button klik: 
-const menuKnop        =  document.querySelector(    '.nav__knop' );
-const navigationItems =  document.querySelectorAll( '.nav__link' );
+const menuKnop        = document.querySelector(    '.nav__knop' );
+const navigationItems = document.querySelectorAll( '.nav__link' );
 
  menuKnop.addEventListener( 'click', () => {
   navigationItems.forEach( (item, index) => {
@@ -19,6 +19,6 @@ const navigationItems =  document.querySelectorAll( '.nav__link' );
     }, 100 * index);
   });
   document.querySelector( '.hamburger_button' ).classList.toggle( 'verbergen' );
-  document.querySelector( '.sluitKnop' ).classList.toggle( 'verbergen' );
+  document.querySelector( '.sluitKnop'        ).classList.toggle( 'verbergen' );
   
  });
